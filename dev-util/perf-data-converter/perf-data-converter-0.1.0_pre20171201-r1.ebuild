@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -23,7 +23,7 @@ RDEPEND="dev-libs/protobuf:0=
 	!elibc_uclibc? ( dev-libs/elfutils )
 	!libressl? ( dev-libs/openssl:0= )
 	libressl? ( dev-libs/libressl:0= )"
-DEPEND="dev-cpp/gmock"
+DEPEND="dev-cpp/gtest"
 
 src_prepare() {
 	default
